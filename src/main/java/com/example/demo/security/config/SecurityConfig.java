@@ -25,7 +25,7 @@ import java.util.List;
  * Clase para la configuración de seguridad Spring Security
  */
 @Configuration
-@EnableWebSecurity // permite a Spring aplicar esta configuracion a la configuraicon de seguridad global
+@EnableWebSecurity // permite a Spring aplicar esta configuracion a la configuracion de seguridad global
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
